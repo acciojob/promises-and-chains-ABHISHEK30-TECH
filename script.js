@@ -5,7 +5,7 @@ document.getElementById("btn").addEventListener("click",(e)=>{
 	new Promise((resolve, reject)=>{
 		if(age>18){
 			setTimeout(()=>{
-				resolve("Welcome,John. You can vote.")
+				resolve("Welcome, John. You can vote.")
 			},4000)
 		}
 		else{
